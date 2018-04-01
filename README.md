@@ -1,2 +1,18 @@
 # assScripts
-A bunch of random scripts that do not really fit very well anywhere else, but are not (necessarily) related to each other
+
+**Class:** A Softer Space Internal
+
+**Language:** BASH
+
+**Platform:** Server
+
+This is a collection of (mostly unrelated) scripts that didn't really make sense to be included anywhere else.
+
+## Setup
+
+Just download the scripts here and you're good to go!
+
+## License
+
+We at A Softer Space really love the Unlicense, which pretty much allows anyone to do anything with this source code.
+For more info, see the file UNLICENSE.
