@@ -10,7 +10,13 @@ This is a collection of (mostly unrelated) scripts that didn't really make sense
 
 ## Setup
 
-Just download the scripts here and you're good to go!
+Just download the scripts here and possibly call something like this:
+
+```
+chmod +x *.sh
+```
+
+to make them executable - and then you are ready to go!
 
 ## License
 
