@@ -2,7 +2,7 @@
 
 **Class:** A Softer Space Internal
 
-**Language:** BASH
+**Language:** bash
 
 **Platform:** Server
 
