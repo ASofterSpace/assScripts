@@ -1,2 +1,5 @@
 # backup editor files
 *~
+
+# less visible script files
+/skyhook
