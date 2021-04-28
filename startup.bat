@@ -6,4 +6,5 @@ start "browser" C:\home\prog\asofterspace\assBrowser\run.bat
 start "Zara" C:\home\prog\asofterspace\assTrainer\run.bat
 start "Fibo" C:\home\prog\asofterspace\assBusinessFinder\run.bat
 start "Towa" C:\home\prog\asofterspace\assDonkey\run.bat
+start "Fefi" C:\home\prog\asofterspace\assErrorFinder\run.bat
 start "firefox" "C:\Program Files\Mozilla Firefox\firefox.exe" http://localhost:3012/
