@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+<body style="overflow: hidden;">
+<img style="width: 199%; position: absolute; left: -45%; top: -45%;" src="background.png" />
+</body>
+<style>
+img {
+  animation: rotation 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+	transform: rotate(359deg);
+  }
+  to {
+	transform: rotate(0deg);
+  }
+}
+</style>
+</html>
