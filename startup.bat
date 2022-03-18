@@ -1,3 +1,5 @@
+start "battery_check" check_battery_plugged.bat
+
 start "datacomx" C:\home\prog\delphi\datacomx\datacomx.bat
 
 timeout /t 1
