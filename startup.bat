@@ -1,8 +1,8 @@
 start "battery_check" C:\home\prog\asofterspace\assScripts\check_battery_plugged.bat
 
-start "datacomx" C:\home\prog\delphi\datacomx\datacomx.bat
+REM start "datacomx" C:\home\prog\delphi\datacomx\datacomx.bat
 
-timeout /t 1
+REM timeout /t 1
 
 start "Hugo" C:\home\prog\asofterspace\assSecretary\run.bat
 start "Mari" C:\home\prog\asofterspace\assAccountant\run.bat
