@@ -1,4 +1,4 @@
-start "battery_check" C:\home\prog\asofterspace\assScripts\check_battery_plugged.bat
+REM start "battery_check" C:\home\prog\asofterspace\assScripts\check_battery_plugged.bat
 
 REM start "datacomx" C:\home\prog\delphi\datacomx\datacomx.bat
 
