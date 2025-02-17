@@ -11,21 +11,28 @@ cd /cyber/prog/asofterspace/assScripts/backup
 cp /reboot.sh .
 cp /startup.sh .
 cp /shutdown.sh .
+cp /cyber_snail_test .
 cp /home/moya/.bashrc moya.bashrc
 cp /root/.bashrc root.bashrc
 
+rm -rf .config
+mkdir -p .config/openbox
+cp /home/moya/.config/openbox/* .config/openbox/
+
+rm -rf .mnt
 mkdir -p mnt
-cd mnt
-cp /mnt/mountallext.sh .
-cp /mnt/umountallext.sh .
-mkdir -p ext
-mkdir -p ext2
-mkdir -p ext3
-mkdir -p ext4
-cd ..
+cp /mnt/mountallext.sh mnt/
+cp /mnt/umountallext.sh mnt/
+mkdir -p mnt/ext
+mkdir -p mnt/ext2
+mkdir -p mnt/ext3
+mkdir -p mnt/ext4
 
 rm -rf etc
 mkdir -p etc
 cd etc
 cp -R /etc/network .
 cd ..
+
+mkdir -p usr/share/themes/Clearlooks/openbox-3
+cp /usr/share/themes/Clearlooks/openbox-3/themerc usr/share/themes/Clearlooks/openbox-3/themerc
