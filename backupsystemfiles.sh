@@ -11,7 +11,7 @@ cd /cyber/prog/asofterspace/assScripts/backup
 cp /reboot.sh .
 cp /startup.sh .
 cp /shutdown.sh .
-cp /cyber_snail_test .
+cp /snail_test .
 cp /home/moya/.bashrc moya.bashrc
 cp /root/.bashrc root.bashrc
 
@@ -29,10 +29,10 @@ mkdir -p mnt/ext3
 mkdir -p mnt/ext4
 
 rm -rf etc
-mkdir -p etc
-cd etc
-cp -R /etc/network .
-cd ..
+mkdir -p etc/network
+cd etc/network
+cp -R /etc/network/saved .
+cd ../..
 
 mkdir -p usr/share/themes/Clearlooks/openbox-3
 cp /usr/share/themes/Clearlooks/openbox-3/themerc usr/share/themes/Clearlooks/openbox-3/themerc
