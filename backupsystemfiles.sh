@@ -13,13 +13,17 @@ cp /startup.sh .
 cp /shutdown.sh .
 cp /snail_test .
 cp /home/moya/.bashrc moya.bashrc
+cp /home/moya/.bash_aliases moya.bash_aliases
 cp /root/.bashrc root.bashrc
 
 rm -rf .config
 mkdir -p .config/openbox
 cp /home/moya/.config/openbox/* .config/openbox/
 
-rm -rf .mnt
+rm -rf .ssh
+cp -R /home/moya/.ssh .
+
+rm -rf mnt
 mkdir -p mnt
 cp /mnt/mountallext.sh mnt/
 cp /mnt/umountallext.sh mnt/
@@ -30,7 +34,9 @@ mkdir -p mnt/ext4
 
 rm -rf etc
 mkdir -p etc/network
-cd etc/network
+cd etc
+cp -R /etc/mpv .
+cd network
 cp -R /etc/network/saved .
 cd ../..
 
