@@ -191,6 +191,8 @@ cd "${BACKUP_BASE_DIR}"
 rm -rf etc
 mkdir -p etc/network
 cd etc
+cp -R /etc/wireguard .
+cp -R /etc/openvpn .
 cp -R /etc/mpv .
 # for longterm copies of things like .bashrc see also /cyber/system/bash
 cp -R /etc/skel .
